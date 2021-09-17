@@ -1,12 +1,15 @@
 // import './App.css'
+import { data } from './components/Data'
 import HeroCard from './components/HeroCard'
 import TimeCard from './components/TimeCard'
 
 function App() {
   return (
-    <div className="App py-12">
+    <div className="App py-20">
       <HeroCard />
-      <TimeCard />
+      {data.map((data, index) => {
+        return <TimeCard key={index} title={data.title} />
+      })}
     </div>
   )
 }

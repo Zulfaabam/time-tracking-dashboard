@@ -31,26 +31,66 @@ body {
   color: white;
 }
 
-.work {
-  background: hsl(15, 100%, 70%);
+.Work {
+  background: url(./images/icon-work.svg), hsl(15, 100%, 70%);
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-position: 95% -15%;
+  padding-top: 2rem;
+  border-radius: 1rem;
 }
 
-.play {
-  background: hsl(195, 74%, 62%);
+.Play {
+  background: url(./images/icon-play.svg), hsl(195, 74%, 62%);
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-position: 95% -15%;
+  padding-top: 2rem;
+  border-radius: 1rem;
 }
 
-.study {
-  background: hsl(348, 100%, 68%);
+.Study {
+  background: url(./images/icon-study.svg), hsl(348, 100%, 68%);
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-position: 95% -15%;
+  padding-top: 2rem;
+  border-radius: 1rem;
 }
 
-.exercise {
-  background: hsl(145, 58%, 55%);
+.Exercise {
+  background: url(./images/icon-exercise.svg), hsl(145, 58%, 55%);
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-position: 95% -15%;
+  padding-top: 2rem;
+  border-radius: 1rem;
 }
 
-.social {
-  background: hsl(264, 64%, 52%);
+.Social {
+  background: url(./images/icon-social.svg), hsl(264, 64%, 52%);
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-position: 95% -15%;
+  padding-top: 2rem;
+  border-radius: 1rem;
 }
 
-.self-care {
-  background: hsl(43, 84%, 65%);
+.Self-Care {
+  background: url(./images/icon-self-care.svg), hsl(43, 84%, 65%);
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-position: 95% -15%;
+  padding-top: 2rem;
+  border-radius: 1rem;
+}
+
+.head h2,
+.times h1 {
+  color: white;
+}
+
+.times p {
+  color: hsl(236, 100%, 87%);
+  font-weight: 300;
 }
