@@ -22,67 +22,66 @@ body {
   color: hsl(236, 100%, 87%);
 }
 
-.time-indication p {
+.menu {
   color: hsl(235, 45%, 61%);
+  cursor: pointer;
   transition: all 300ms ease-in-out;
 }
 
-.time-indication p:hover {
+.menu:hover {
   color: white;
+}
+
+.Work,
+.Play,
+.Study,
+.Exercise,
+.Social,
+.Self-Care {
+  padding-top: 2rem;
+  border-radius: 1rem;
 }
 
 .Work {
   background: url(./images/icon-work.svg), hsl(15, 100%, 70%);
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-position: 95% -15%;
-  padding-top: 2rem;
-  border-radius: 1rem;
+  background-size: 22%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 95% -15%, center;
 }
 
 .Play {
   background: url(./images/icon-play.svg), hsl(195, 74%, 62%);
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-position: 95% -15%;
-  padding-top: 2rem;
-  border-radius: 1rem;
+  background-size: 22%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 95% -15%, center;
 }
 
 .Study {
   background: url(./images/icon-study.svg), hsl(348, 100%, 68%);
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-position: 95% -15%;
-  padding-top: 2rem;
-  border-radius: 1rem;
+  background-size: 22%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 95% -15%, center;
 }
 
 .Exercise {
   background: url(./images/icon-exercise.svg), hsl(145, 58%, 55%);
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-position: 95% -15%;
-  padding-top: 2rem;
-  border-radius: 1rem;
+  background-size: 22%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 95% -15%, center;
 }
 
 .Social {
   background: url(./images/icon-social.svg), hsl(264, 64%, 52%);
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-position: 95% -15%;
-  padding-top: 2rem;
-  border-radius: 1rem;
+  background-size: 22%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 95% -15%, center;
 }
 
 .Self-Care {
   background: url(./images/icon-self-care.svg), hsl(43, 84%, 65%);
-  background-size: 22%;
-  background-repeat: no-repeat;
-  background-position: 95% -15%;
-  padding-top: 2rem;
-  border-radius: 1rem;
+  background-size: 22%, 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 95% -15%, center;
 }
 
 .head h2,

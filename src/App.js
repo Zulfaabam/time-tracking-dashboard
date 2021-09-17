@@ -1,5 +1,5 @@
 // import './App.css'
-import { data } from './components/Data'
+import data from './data.json'
 import HeroCard from './components/HeroCard'
 import TimeCard from './components/TimeCard'
 

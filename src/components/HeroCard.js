@@ -13,9 +13,9 @@ export default class HeroCard extends Component {
           </div>
         </div>
         <div className="time-indication flex justify-around p-4 ">
-          <p>Daily</p>
-          <p>Weekly</p>
-          <p>Monthly</p>
+          <p className="menu">Daily</p>
+          <p className="menu">Weekly</p>
+          <p className="menu">Monthly</p>
         </div>
       </div>
     )
