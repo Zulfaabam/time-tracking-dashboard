@@ -15,7 +15,7 @@ export default function TimeCard({ title, timeframes, tab }) {
             <h1 className="text-2xl font-light xl:text-4xl">
               {timeframes[tab].current}hrs
             </h1>
-            <p>
+            <p className="text-xs">
               {`Last ${
                 tab === 'daily' ? 'Day' : tab === 'weekly' ? 'Week' : 'Month'
               } - ${timeframes[tab].previous}`}

@@ -14,6 +14,11 @@ body {
   background: hsl(235, 46%, 20%);
 }
 
+.content:hover {
+  cursor: pointer;
+  background: hsl(237, 35%, 35%);
+}
+
 .bg-card-light {
   background: hsl(246, 80%, 60%);
 }
