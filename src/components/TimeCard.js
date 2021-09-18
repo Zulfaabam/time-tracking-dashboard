@@ -4,7 +4,7 @@ export default function TimeCard({ title, timeframes, tab }) {
   return (
     <div className="time-card w-80 mt-6 mx-auto rounded-2xl md:mt-0 lg:w-44 xl:w-56">
       <div className={title.replace(/ /g, '')}>
-        <div className="content bg-card-dark px-8 py-4 rounded-2xl">
+        <div className="content bg-card-dark px-8 py-4 rounded-2xl transition">
           <div className="head flex justify-between items-center">
             <h2>{title}</h2>
             <i>

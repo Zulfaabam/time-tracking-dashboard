@@ -12,7 +12,7 @@ export default function HeroCard({ changeTab, tab }) {
           </h1>
         </div>
       </div>
-      <div className="time-indication flex justify-around p-4 xl:flex-col xl:items-start xl:gap-4">
+      <div className="time-indication flex justify-around p-4 xl:flex-col xl:items-start xl:gap-4 xl:ml-4">
         <p
           className={tab === 'daily' ? 'active' : 'menu'}
           id="daily"

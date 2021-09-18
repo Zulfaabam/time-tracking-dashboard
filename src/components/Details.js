@@ -11,7 +11,7 @@ export default function Details({ tab }) {
   }, [])
 
   return (
-    <div className="md:space-y-6 lg:grid lg:grid-cols-2 lg:space-y-0 lg:gap-y-6 lg:gap-x-6 xl:grid-cols-3 xl:gap-x-8 xl:mr-auto xl:ml-8 xl:col-span-2">
+    <div className="md:space-y-6 lg:grid lg:grid-cols-2 lg:space-y-0 lg:gap-y-6 lg:gap-x-6 xl:grid-cols-3 xl:gap-x-8 xl:mr-auto xl:ml-8 xl:col-span-2 xl:gap-y-8">
       {data.map((item, index) => {
         return (
           <TimeCard
