@@ -29,6 +29,10 @@ body {
 }
 
 .menu:hover {
+  color: hsl(246, 80%, 60%);
+}
+
+.active {
   color: white;
 }
 
@@ -37,7 +41,7 @@ body {
 .Study,
 .Exercise,
 .Social,
-.Self-Care {
+.SelfCare {
   padding-top: 2rem;
   border-radius: 1rem;
 }
@@ -77,7 +81,7 @@ body {
   background-position: 95% -15%, center;
 }
 
-.Self-Care {
+.SelfCare {
   background: url(./images/icon-self-care.svg), hsl(43, 84%, 65%);
   background-size: 22%, 100%;
   background-repeat: no-repeat, no-repeat;
